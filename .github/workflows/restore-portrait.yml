@@ -1,0 +1,38 @@
+name: Restore Portfolio Portrait
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'restore-portrait.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Rebuild portrait asset
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat portrait.part*.b64 > portrait.b64
+          base64 -d portrait.b64 > public/febrian-about.webp
+          cp public/febrian-about.webp febrian-about.webp
+          rm -f portrait.b64 portrait.part*.b64 restore-portrait.txt
+
+      - name: Commit restored portrait
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "fix: restore portfolio portrait asset"
+          git push origin HEAD:main
