@@ -1,0 +1,40 @@
+name: Bootstrap Portfolio Source
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'portfolio-source.tar.gz.b64'
+      - '.github/workflows/bootstrap.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Expand portfolio source
+        shell: bash
+        run: |
+          set -euo pipefail
+          base64 -d portfolio-source.tar.gz.b64 > portfolio-source.tar.gz
+          tar -xzf portfolio-source.tar.gz -C .
+          rm -f portfolio-source.tar.gz portfolio-source.tar.gz.b64
+          rm -f .github/workflows/bootstrap.yml
+
+      - name: Commit portfolio source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "feat: publish portfolio source"
+          git push origin HEAD:main
