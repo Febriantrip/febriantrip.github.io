@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 825">
+  <rect width="1200" height="825" fill="#101112"/>
+  <rect x="90" y="85" width="1020" height="655" rx="18" fill="#e9e4db"/>
+  <rect x="90" y="85" width="220" height="655" rx="18" fill="#1c1d1f"/>
+  <circle cx="145" cy="140" r="18" fill="#d9c18d"/>
+  <rect x="130" y="200" width="120" height="10" rx="5" fill="#646569"/>
+  <rect x="130" y="240" width="95" height="10" rx="5" fill="#646569"/>
+  <rect x="130" y="280" width="130" height="10" rx="5" fill="#d9c18d"/>
+  <text x="360" y="160" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#171719">JOB REPORT</text>
+  <text x="360" y="195" font-family="Arial,sans-serif" font-size="15" letter-spacing="4" fill="#777">OPERATIONAL DASHBOARD</text>
+  <rect x="360" y="245" width="205" height="125" rx="14" fill="#c9c0b3"/>
+  <rect x="590" y="245" width="205" height="125" rx="14" fill="#c9c0b3"/>
+  <rect x="820" y="245" width="205" height="125" rx="14" fill="#c9c0b3"/>
+  <rect x="360" y="405" width="665" height="240" rx="14" fill="#f7f4ee" stroke="#c8c0b6"/>
+  <path d="M410 590l90-80 88 42 96-120 102 75 108-105 80 44" fill="none" stroke="#2b2b2e" stroke-width="7"/>
+  <circle cx="684" cy="432" r="7" fill="#d9c18d"/>
+</svg>
