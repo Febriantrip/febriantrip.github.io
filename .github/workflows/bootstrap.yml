@@ -25,9 +25,8 @@ jobs:
           set -euo pipefail
           cat portfolio-source.part*.b64 > portfolio-source.tar.gz.b64
           base64 -d portfolio-source.tar.gz.b64 > portfolio-source.tar.gz
-          tar -xzf portfolio-source.tar.gz -C .
+          tar -xzf portfolio-source.tar.gz -C . --exclude='.github/workflows/deploy.yml'
           rm -f portfolio-source.tar.gz portfolio-source.tar.gz.b64 portfolio-source.part*.b64 bootstrap-ready.txt
-          rm -f .github/workflows/bootstrap.yml
 
       - name: Commit portfolio source
         shell: bash
