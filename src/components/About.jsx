@@ -7,7 +7,7 @@ export default function About({ data }) {
         <div className="portrait-frame portrait-photo-frame" data-reveal>
           <img
             className="portrait-photo"
-            src="https://avatars.githubusercontent.com/u/194328118?v=4"
+            src="./febrian-about.webp"
             alt="Febrian Tri Prasmanto"
             loading="lazy"
           />
