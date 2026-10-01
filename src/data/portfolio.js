@@ -101,7 +101,7 @@ export const portfolio = {
         ],
         capabilities: ['Sales & shipment', 'Procurement', 'Inventory & warehouse', 'AR / AP', 'GL & periods', 'Multi-entity foundations'],
         outcome: 'Operational and financial workflows share one coherent ERP architecture with explicit business-domain boundaries and production-backed transaction paths.',
-        proof: 'PUBLIC SOURCE',
+        proof: 'LIVE DEPLOYMENT + PUBLIC SOURCE',
         note: 'The repository is a sanitized public portfolio snapshot of an actively developed ERP.'
       }
     },
@@ -145,9 +145,10 @@ export const portfolio = {
       accent: 'Multi-client digital invitation platform with CMS, guest personalization, RSVP, guestbook, check-in, media, and client review workflow.',
       role: 'Product Design · Full-stack Development · UX',
       stack: 'React · TypeScript · Node.js · Express · MySQL',
-      status: 'PUBLIC SOURCE',
-      statusTone: 'public',
+      status: 'LIVE · PUBLIC SOURCE',
+      statusTone: 'live',
       repository: 'https://github.com/Febriantrip/iinvitation',
+      live: 'https://febriantrip.github.io/iinvitation/',
       caseStudy: {
         context: 'Invitation projects often repeat the same operational work: content setup, guest personalization, RSVP, event-side check-in, media, client review, and publication.',
         problem: 'Treating every invitation as a one-off page makes repeated work harder to manage and gives no shared operational workflow for multiple clients.',
