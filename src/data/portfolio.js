@@ -101,7 +101,7 @@ export const portfolio = {
         ],
         capabilities: ['Sales & shipment', 'Procurement', 'Inventory & warehouse', 'AR / AP', 'GL & periods', 'Multi-entity foundations'],
         outcome: 'Operational and financial workflows share one coherent ERP architecture with explicit business-domain boundaries and production-backed transaction paths.',
-        proof: 'LIVE DEPLOYMENT + PUBLIC SOURCE',
+        proof: 'PUBLIC SOURCE',
         note: 'The repository is a sanitized public portfolio snapshot of an actively developed ERP.'
       }
     },
@@ -161,7 +161,7 @@ export const portfolio = {
         ],
         capabilities: ['Multi-client CMS', 'Guest links', 'RSVP & wishes', 'Guestbook & check-in', 'Client review', 'Realtime events'],
         outcome: 'A reusable invitation product ecosystem rather than a collection of isolated landing pages.',
-        proof: 'PUBLIC SOURCE',
+        proof: 'LIVE DEPLOYMENT + PUBLIC SOURCE',
         note: 'The public repository uses synthetic demo identities and excludes customer-specific data and production secrets.'
       }
     },
