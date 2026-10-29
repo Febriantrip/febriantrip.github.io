@@ -136,6 +136,36 @@ export const portfolio = {
       }
     },
     {
+      slug: 'wedding-in',
+      featured: false,
+      title: 'WEDDING-IN',
+      type: 'WEDDING ORGANIZER · HYBRID ERP',
+      year: '2026',
+      image: '/projects/wedding-in.svg',
+      accent: 'Wedding organizer operations platform connecting event plans, client payments, vendor bookings, budgets, and financial backoffice in one workflow.',
+      role: 'Product Architecture · Full-stack Development · Operations UX',
+      stack: 'React · TypeScript · Node.js · Express · MySQL · Vite',
+      status: 'LIVE DEMO · PUBLIC BUILD',
+      statusTone: 'live',
+      repository: 'https://github.com/Febriantrip/febriantrip.github.io/tree/main/wedding-in',
+      live: 'https://febriantrip.github.io/wedding-in/',
+      caseStudy: {
+        context: 'Wedding organizer projects bring together a couple, their families, event teams, vendors, contracts, installments, checklists, and event-day execution. Keeping every team aligned requires one shared operational picture.',
+        problem: 'Disconnected documents and spreadsheets make it hard to track changing dates, vendor commitments, client receivables, event readiness, and project profitability without duplicated work.',
+        contribution: 'I designed and implemented the hybrid ERP workflows, responsive interface, business rules, structured demo data, and local Node/MySQL foundations for wedding project and backoffice operations.',
+        decisions: [
+          'Keep vendor payments made directly by clients separate from wedding organizer revenue, costs, and profitability.',
+          'Maintain reusable rundown templates while allowing independent, editable copies for each wedding project.',
+          'Connect Gantt scheduling, preparation checklists, event rundown, calendar activities, and monitoring around the same project.',
+          'Separate the public in-browser demo from the local API and database, using synthetic data for portfolio access.'
+        ],
+        capabilities: ['Wedding project management', 'Vendor booking', 'Client installments', 'Budget & profitability', 'Gantt, rundown & PDF', 'Financial backoffice'],
+        outcome: 'One demonstrable workflow from quotation and wedding preparation through event execution, payments, vendor coordination, and financial reporting.',
+        proof: 'LIVE INTERACTIVE DEMO + PUBLIC BUILD',
+        note: 'The public GitHub folder contains the deployable demo build. The operational API, local database, and private client information are not hosted on GitHub Pages.'
+      }
+    },
+    {
       slug: 'iinvitation',
       featured: false,
       title: 'IINVITATION',
