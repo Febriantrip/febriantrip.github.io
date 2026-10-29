@@ -145,9 +145,9 @@ export const portfolio = {
       accent: 'Wedding organizer operations platform connecting event plans, client payments, vendor bookings, budgets, and financial backoffice in one workflow.',
       role: 'Product Architecture · Full-stack Development · Operations UX',
       stack: 'React · TypeScript · Node.js · Express · MySQL · Vite',
-      status: 'LIVE DEMO · PUBLIC BUILD',
+      status: 'LIVE DEMO · PUBLIC SOURCE',
       statusTone: 'live',
-      repository: 'https://github.com/Febriantrip/febriantrip.github.io/tree/main/wedding-in',
+      repository: 'https://github.com/Febriantrip/wedding-in',
       live: 'https://febriantrip.github.io/wedding-in/',
       caseStudy: {
         context: 'Wedding organizer projects bring together a couple, their families, event teams, vendors, contracts, installments, checklists, and event-day execution. Keeping every team aligned requires one shared operational picture.',
@@ -161,8 +161,8 @@ export const portfolio = {
         ],
         capabilities: ['Wedding project management', 'Vendor booking', 'Client installments', 'Budget & profitability', 'Gantt, rundown & PDF', 'Financial backoffice'],
         outcome: 'One demonstrable workflow from quotation and wedding preparation through event execution, payments, vendor coordination, and financial reporting.',
-        proof: 'LIVE INTERACTIVE DEMO + PUBLIC BUILD',
-        note: 'The public GitHub folder contains the deployable demo build. The operational API, local database, and private client information are not hosted on GitHub Pages.'
+        proof: 'LIVE INTERACTIVE DEMO + PUBLIC SOURCE',
+        note: 'The dedicated public repository contains application source, migrations and tests without secrets. GitHub Pages hosts only a synthetic browser demo; no operational API, local database or private client data is deployed there.'
       }
     },
     {

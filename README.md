@@ -81,7 +81,7 @@ Private/internal work does not expose company data or confidential source code.
 - Karunia ERP - private work project
 - SOFTECH ERP - https://github.com/Febriantrip/softech-erp
 - CemilIn - https://github.com/Febriantrip/Cemilin
-- Wedding-In - https://febriantrip.github.io/wedding-in/ (public demo build: https://github.com/Febriantrip/febriantrip.github.io/tree/main/wedding-in)
+- Wedding-In - https://github.com/Febriantrip/wedding-in (live demo: https://febriantrip.github.io/wedding-in/)
 - iInvitation - https://github.com/Febriantrip/iinvitation
 - Multi-Industry Website Demo - https://github.com/Febriantrip/website-demo
 - Job Report System - internal project
